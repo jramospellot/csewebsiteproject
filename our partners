@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+  <body>
+
+  <h1>This is a Heading</h1>
+  <p>Welcome to GoGrocery! We believe that you should be able to get quality ingredients from the comfort of your own home.</p>
+
+
+    
+
+  <a href= mail.google.com>Contact Us</a>
+
