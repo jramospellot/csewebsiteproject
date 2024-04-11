@@ -1,0 +1,152 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #2e073e;
+  color: #942192;
+  padding: 13px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  class:glow;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #2e073e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #942192;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #9929bd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #9929bd;
+}
+
+body {
+background-color:#351A50;
+color: white;
+font-family: 'fantasy';
+}
+
+h2 {
+font-size: 50px;
+text-align: center;
+}
+
+.glow {
+  color: #8C71A6;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.font {
+font-family: 'fantasy';
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #8C71A6, 0 0 20px #8C71A6, 0 0 30px #644187, 0 0 40px #644187, 0 0 50px #644187, 0 0 60px #644187, 0 0 70px #644187;
+  }
+
+  to {
+      text-shadow: 0 0 10px #8C71A6, 0 0 20px #8C71A6, 0 0 30px #644187, 0 0 40px #644187, 0 0 50px #644187, 0 0 60px #644187, 0 0 70px #644187;
+  }
+}
+ul {
+    list-style-type:none;
+}
+li span {
+    display:inline-block;
+    width:100px;
+}
+
+.nobr { 
+  white-space:nowrap; 
+}
+
+.stop {
+  white-space:normal;
+}
+
+.regfontsize {
+  font-size: 20px;
+}
+
+.container { 
+  height: 100vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+
+.fatedd { 
+  display: none; 
+}
+
+.fatedbutton {
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  onclick: 'fated';
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button {
+  color:#351A50;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2e073e;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #942192;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #9929bd;
+}
